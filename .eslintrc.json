@@ -1,0 +1,36 @@
+{
+    "extends": "standard",
+    "globals": {
+        "dataProcessing": true,
+        "getWnModelData": true
+    },
+    "rules": {
+        "key-spacing": ["error", {
+            "multiLine": {
+                "beforeColon": false,
+                "afterColon": true
+
+            },
+            "align": {
+                "beforeColon": true,
+                "afterColon": true,
+                "on": "colon"
+            }
+        }],
+        "indent": ["error", 2],
+        "semi": "off",
+        "space-before-function-paren": ["error", {
+            "anonymous": "never",
+            "named": "never",
+            "asyncArrow": "never"
+        }],
+        "space-in-parens": ["error", "always", {
+            "exceptions": ["empty"]
+        }],
+        "no-unused-vars": "warn",
+        "spaced-comment": "off",
+        "array-bracket-spacing": ["error", "always", {
+            "singleValue": false
+        }]
+    }
+}
