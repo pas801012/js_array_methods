@@ -20,6 +20,17 @@ BODY {
   margin: 5px;
 }
 
+.horiz {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.vert {
+  display: flex;
+  flex-direction: column;
+}
+
 /*** SHAPE VIEW ***/
 .square {
   width: 100px;
@@ -53,6 +64,10 @@ BODY {
   background: green;
 }
 
+:not(.triangle).yellow {
+  background: yellow;
+}
+
 .triangle.red {
   border-color: transparent transparent red transparent;
 }
@@ -61,6 +76,9 @@ BODY {
 }
 .triangle.green {
   border-color: transparent transparent green transparent;
+}
+.triangle.yellow {
+  border-color: transparent transparent yellow transparent;
 }
 
 .hidden {
