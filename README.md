@@ -13,7 +13,13 @@ Here is a list of frequently used Array methods:
 
 They have important advantages and benefits comparing to classic loops (for, while i.e.)
 
-# forEach
+TODO: 
+  1. describe reduce + concat issue which resulted in poor performance
+  2. describe iterable objects( how use map,filter, i.e. with Object ):
+      - conditions ( indexes and length )
+      - obj = { 0: 1, 1: 2, 2: 3, one: 1, two: 2, three: 3, length: 3 }
+
+## forEach
 This method used instead of classic for loop in case:
   - need to do something out of coverage other array methods;
   - do not need to care about manual index increase;
@@ -42,7 +48,7 @@ Possible issues in classic for loop:
   - posibility of mistake in condition (like , instead ;   lenght instead length;
   - use index to get acces to array item;
 
-# map
+## map
 It used when each(or some by condition) element in array needs to be changed.
 
 Map syntax:
