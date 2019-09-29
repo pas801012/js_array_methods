@@ -1,16 +1,3 @@
-<style>
-.panel {
-  margin-bottom: 27px;
-  background-color: rgba(255,255,255,0.05);
-  border: 1px solid transparent;
-  border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-}
-.panel-info {
-  border-color: #bce8f1;
-}
-</style>
-
 # JS Array Methods
 
 This project directed to improve education process in computer programming.
@@ -111,9 +98,3 @@ It also reduce "field" for possible mistakes:
 var arr = [1,2,3,4];
 var result = arr.map( item => item * 2 );  // result = [2,4,6,8];
 ```
-
-<aside style="color:red">
-
-You must replace `meowmeowmeow` with your personal API key.
-
-</aside>
